@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP D_hollow
+D Diode_hollow
+K diode_hollow
+$ENDCMP
+#
+#End Doc Library
