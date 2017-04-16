@@ -1,0 +1,7 @@
+irfb4227:              200V Vgt 3-5V
+STB75NF75, STB80NF10:  75V Vgt 3-4V
+IRFB31N20D             200V Vgt 3-5.5V, 20kn
+IRFB3207               75V Vgt 2-4V, 29kn
+IRFB7730               75V Vgt 2.1-3.4V, 34kn
+IRFB4110               100V Vgt 2-4V, 15kn
+IRFB4332               250V Vgt 3-5V, 26kn
