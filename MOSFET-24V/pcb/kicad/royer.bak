@@ -91,17 +91,6 @@ F 3 "" H 3250 4300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
-U 1 1 58419092
-P 3000 5300
-F 0 "R2" V 3080 5300 50  0000 C CNN
-F 1 "0" V 3000 5300 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 2930 5300 50  0001 C CNN
-F 3 "" H 3000 5300 50  0000 C CNN
-	1    3000 5300
-	0    1    1    0   
-$EndComp
-$Comp
 L C C4
 U 1 1 58419AB8
 P 4250 4750
@@ -144,17 +133,6 @@ F 2 "Resistors_SMD:R_1206_HandSoldering" V 3480 4300 50  0001 C CNN
 F 3 "" H 3550 4300 50  0000 C CNN
 	1    3550 4300
 	-1   0    0    -1  
-$EndComp
-$Comp
-L R R6
-U 1 1 58419AF3
-P 3800 5300
-F 0 "R6" V 3880 5300 50  0000 C CNN
-F 1 "0" V 3800 5300 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 3730 5300 50  0001 C CNN
-F 3 "" H 3800 5300 50  0000 C CNN
-	1    3800 5300
-	0    -1   1    0   
 $EndComp
 $Comp
 L C C5
@@ -204,9 +182,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 4100 3250 4150
 Wire Wire Line
-	2650 5300 2850 5300
-Wire Wire Line
-	3150 5300 3250 5300
+	2650 5300 3250 5300
 Wire Wire Line
 	3250 5300 3550 4500
 Wire Wire Line
@@ -253,9 +229,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 4100 3550 4150
 Wire Wire Line
-	4150 5300 3950 5300
-Wire Wire Line
-	3550 5300 3650 5300
+	3550 5300 4150 5300
 Wire Wire Line
 	3550 5300 3550 5350
 Wire Wire Line
@@ -451,9 +425,9 @@ Text Label 2350 5050 0    60   ~ 0
 C1
 Text Label 4450 5050 0    60   ~ 0
 C2
-Text Label 2700 5300 0    60   ~ 0
+Text Label 2850 5300 0    60   ~ 0
 G1
-Text Label 4000 5300 0    60   ~ 0
+Text Label 3850 5300 0    60   ~ 0
 G2
 Text Label 2850 4750 0    60   ~ 0
 D1
@@ -461,10 +435,6 @@ Text Label 3850 4750 0    60   ~ 0
 D2
 Text Label 4050 4100 0    60   ~ 0
 9V
-Text Label 3200 5300 0    60   ~ 0
-X1
-Text Label 3600 5300 0    60   ~ 0
-X2
 Text Label 4750 3700 0    60   ~ 0
 24V
 $Comp
