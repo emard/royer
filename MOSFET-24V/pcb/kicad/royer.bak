@@ -439,7 +439,7 @@ F 1 "COIL" V 3250 3150 50  0000 C TNN
 F 2 "Connectors_Phoenix:PhoenixContact_MC-G_03x5.08mm_Angled" H 3400 2825 50  0001 C CNN
 F 3 "" H 3375 3250 50  0001 C CNN
 	1    3400 3150
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	2350 3550 3200 3550

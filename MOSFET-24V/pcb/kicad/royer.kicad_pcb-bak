@@ -3,9 +3,9 @@
   (general
     (links 41)
     (no_connects 41)
-    (area 0 0 0 0)
+    (area 141.205 35.095 194.1483 75.565001)
     (thickness 1.6)
-    (drawings 0)
+    (drawings 4)
     (tracks 0)
     (zones 0)
     (modules 24)
@@ -214,7 +214,7 @@
   )
 
   (module Connectors_Phoenix:PhoenixContact_MC-G_02x5.08mm_Angled (layer F.Cu) (tedit 5797DB13) (tstamp 58F3487B)
-    (at 182.88 43.18)
+    (at 182.88 40.64)
     (descr "Generic Phoenix Contact connector footprint for series: MC-G; number of pins: 02; pin pitch: 5.08mm; Angled || order number: 1836189 8A 320V")
     (tags "phoenix_contact connector MC_01x02_G_5.08mm")
     (path /58F35B2E)
@@ -249,7 +249,7 @@
   )
 
   (module Connectors_Phoenix:PhoenixContact_MC-G_03x5.08mm_Angled (layer F.Cu) (tedit 5797DB14) (tstamp 58F34882)
-    (at 156.21 39.37)
+    (at 156.21 40.64)
     (descr "Generic Phoenix Contact connector footprint for series: MC-G; number of pins: 03; pin pitch: 5.08mm; Angled || order number: 1836192 8A 320V")
     (tags "phoenix_contact connector MC_01x03_G_5.08mm")
     (path /58F34C5A)
@@ -964,5 +964,10 @@
       (rotate (xyz 0 0 180))
     )
   )
+
+  (gr_line (start 142.24 35.56) (end 142.24 76.2) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 193.04 35.56) (end 142.24 35.56) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 193.04 76.2) (end 193.04 35.56) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 142.24 76.2) (end 193.04 76.2) (layer Edge.Cuts) (width 0.15))
 
 )
