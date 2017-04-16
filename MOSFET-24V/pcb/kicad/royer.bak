@@ -29,7 +29,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:fluxgate
 LIBS:lamp
 LIBS:diode
 LIBS:royer-cache
@@ -53,7 +52,7 @@ U 1 1 58417946
 P 2550 4750
 F 0 "C1" H 2575 4850 50  0000 L CNN
 F 1 "47nF" H 2575 4650 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Rect_L27_W9_H17_P23" H 2588 4600 50  0001 C CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 2588 4600 50  0001 C CNN
 F 3 "" H 2550 4750 50  0000 C CNN
 	1    2550 4750
 	0    1    1    0   
@@ -64,7 +63,7 @@ U 1 1 58417DD6
 P 2750 4950
 F 0 "C2" H 2775 5050 50  0000 L CNN
 F 1 "47nF" H 2550 4850 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Rect_L27_W9_H17_P23" H 2788 4800 50  0001 C CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 2788 4800 50  0001 C CNN
 F 3 "" H 2750 4950 50  0000 C CNN
 	1    2750 4950
 	1    0    0    -1  
@@ -75,7 +74,7 @@ U 1 1 58417E39
 P 3000 4950
 F 0 "R1" V 3080 4950 50  0000 C CNN
 F 1 "33k" V 3000 4950 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 2930 4950 50  0001 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 2930 4950 50  0001 C CNN
 F 3 "" H 3000 4950 50  0000 C CNN
 	1    3000 4950
 	1    0    0    -1  
@@ -86,7 +85,7 @@ U 1 1 584180F8
 P 3250 4300
 F 0 "R3" V 3330 4300 50  0000 C CNN
 F 1 "47k" V 3250 4300 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 3180 4300 50  0001 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 3180 4300 50  0001 C CNN
 F 3 "" H 3250 4300 50  0000 C CNN
 	1    3250 4300
 	1    0    0    -1  
@@ -97,7 +96,7 @@ U 1 1 58419092
 P 3000 5300
 F 0 "R2" V 3080 5300 50  0000 C CNN
 F 1 "0" V 3000 5300 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM20mm" V 2930 5300 50  0001 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 2930 5300 50  0001 C CNN
 F 3 "" H 3000 5300 50  0000 C CNN
 	1    3000 5300
 	0    1    1    0   
@@ -108,7 +107,7 @@ U 1 1 58419AB8
 P 4250 4750
 F 0 "C4" H 4275 4850 50  0000 L CNN
 F 1 "47nF" H 4275 4650 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Rect_L27_W9_H17_P23" H 4288 4600 50  0001 C CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 4288 4600 50  0001 C CNN
 F 3 "" H 4250 4750 50  0000 C CNN
 	1    4250 4750
 	0    -1   1    0   
@@ -119,7 +118,7 @@ U 1 1 58419ABE
 P 4050 4950
 F 0 "C3" H 4075 5050 50  0000 L CNN
 F 1 "47nF" H 3850 4850 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Rect_L27_W9_H17_P23" H 4088 4800 50  0001 C CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 4088 4800 50  0001 C CNN
 F 3 "" H 4050 4950 50  0000 C CNN
 	1    4050 4950
 	-1   0    0    -1  
@@ -130,7 +129,7 @@ U 1 1 58419AC4
 P 3800 4950
 F 0 "R5" V 3880 4950 50  0000 C CNN
 F 1 "33k" V 3800 4950 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 3730 4950 50  0001 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 3730 4950 50  0001 C CNN
 F 3 "" H 3800 4950 50  0000 C CNN
 	1    3800 4950
 	-1   0    0    -1  
@@ -141,7 +140,7 @@ U 1 1 58419ACA
 P 3550 4300
 F 0 "R4" V 3630 4300 50  0000 C CNN
 F 1 "47k" V 3550 4300 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 3480 4300 50  0001 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 3480 4300 50  0001 C CNN
 F 3 "" H 3550 4300 50  0000 C CNN
 	1    3550 4300
 	-1   0    0    -1  
@@ -152,7 +151,7 @@ U 1 1 58419AF3
 P 3800 5300
 F 0 "R6" V 3880 5300 50  0000 C CNN
 F 1 "0" V 3800 5300 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM20mm" V 3730 5300 50  0001 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 3730 5300 50  0001 C CNN
 F 3 "" H 3800 5300 50  0000 C CNN
 	1    3800 5300
 	0    -1   1    0   
@@ -169,13 +168,7 @@ F 3 "" H 4800 4900 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2350 3550 2350 3900
-Wire Wire Line
-	2350 3900 2350 4500
-Wire Wire Line
-	2350 4500 2350 4750
-Wire Wire Line
-	2350 4750 2350 5100
+	2350 3550 2350 5100
 Wire Wire Line
 	2350 4500 2400 4500
 Connection ~ 2350 4500
@@ -183,25 +176,17 @@ Wire Wire Line
 	2350 4750 2400 4750
 Connection ~ 2350 4750
 Wire Wire Line
-	2700 4500 2750 4500
+	2700 4500 2800 4500
 Wire Wire Line
-	2750 4500 2800 4500
+	2700 4750 3000 4750
 Wire Wire Line
-	2700 4750 2750 4750
-Wire Wire Line
-	2750 4750 3000 4750
-Wire Wire Line
-	2750 4500 2750 4750
-Wire Wire Line
-	2750 4750 2750 4800
+	2750 4500 2750 4800
 Connection ~ 2750 4500
 Connection ~ 2750 4750
 Wire Wire Line
 	3000 4750 3000 4800
 Wire Wire Line
-	2750 5100 2750 5150
-Wire Wire Line
-	2750 5150 2750 5800
+	2750 5100 2750 5800
 Wire Wire Line
 	2750 5150 3000 5150
 Wire Wire Line
@@ -209,29 +194,13 @@ Wire Wire Line
 Wire Wire Line
 	2350 5500 2350 5800
 Wire Wire Line
-	2350 5800 2750 5800
-Wire Wire Line
-	2750 5800 3250 5800
-Wire Wire Line
-	3250 5800 3550 5800
-Wire Wire Line
-	3550 5800 4050 5800
-Wire Wire Line
-	4050 5800 4450 5800
-Wire Wire Line
-	4450 5800 4800 5800
+	2350 5800 4800 5800
 Connection ~ 2750 5800
 Connection ~ 2750 5150
 Wire Wire Line
 	3000 4200 3000 4100
 Wire Wire Line
-	3000 4100 3250 4100
-Wire Wire Line
-	3250 4100 3550 4100
-Wire Wire Line
-	3550 4100 3800 4100
-Wire Wire Line
-	3800 4100 4800 4100
+	3000 4100 4800 4100
 Wire Wire Line
 	3250 4100 3250 4150
 Wire Wire Line
@@ -252,13 +221,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 4500 3550 5300
 Wire Wire Line
-	4450 3550 4450 3900
-Wire Wire Line
-	4450 3900 4450 4500
-Wire Wire Line
-	4450 4500 4450 4750
-Wire Wire Line
-	4450 4750 4450 5100
+	4450 3550 4450 5100
 Wire Wire Line
 	4450 4500 4400 4500
 Connection ~ 4450 4500
@@ -266,25 +229,17 @@ Wire Wire Line
 	4450 4750 4400 4750
 Connection ~ 4450 4750
 Wire Wire Line
-	4000 4500 4050 4500
+	4000 4500 4100 4500
 Wire Wire Line
-	4050 4500 4100 4500
+	3800 4750 4100 4750
 Wire Wire Line
-	3800 4750 4050 4750
-Wire Wire Line
-	4050 4750 4100 4750
-Wire Wire Line
-	4050 4500 4050 4750
-Wire Wire Line
-	4050 4750 4050 4800
+	4050 4500 4050 4800
 Connection ~ 4050 4500
 Connection ~ 4050 4750
 Wire Wire Line
 	3800 4750 3800 4800
 Wire Wire Line
-	4050 5100 4050 5150
-Wire Wire Line
-	4050 5150 4050 5800
+	4050 5100 4050 5800
 Wire Wire Line
 	4050 5150 3800 5150
 Wire Wire Line
@@ -321,21 +276,13 @@ Wire Wire Line
 Wire Wire Line
 	5100 5150 4800 5150
 Wire Wire Line
-	4800 5050 4800 5150
+	4800 5050 4800 6000
 Wire Wire Line
-	4800 5150 4800 5800
-Wire Wire Line
-	4800 5800 4800 6000
-Wire Wire Line
-	5100 4500 5100 4650
-Wire Wire Line
-	5100 4650 5100 4700
+	5100 4500 5100 4700
 Wire Wire Line
 	5100 4650 4800 4650
 Wire Wire Line
-	4800 4100 4800 4650
-Wire Wire Line
-	4800 4650 4800 4750
+	4800 4100 4800 4750
 Connection ~ 4800 5150
 Connection ~ 4800 4650
 $Comp
@@ -344,7 +291,7 @@ U 1 1 5841F0FF
 P 5100 4350
 F 0 "R7" V 5180 4350 50  0000 C CNN
 F 1 "1.5k" V 5100 4350 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 5030 4350 50  0001 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 5030 4350 50  0001 C CNN
 F 3 "" H 5100 4350 50  0000 C CNN
 	1    5100 4350
 	1    0    0    -1  
@@ -352,18 +299,16 @@ $EndComp
 Connection ~ 3800 4100
 Connection ~ 4450 5800
 Wire Wire Line
-	5100 3350 5100 3700
-Wire Wire Line
-	5100 3700 5100 4200
+	5100 3350 5100 4200
 Wire Wire Line
 	3400 3700 5100 3700
 Connection ~ 5100 4650
 Connection ~ 5100 3700
 $Comp
-L GND #PWR1
+L GND #PWR01
 U 1 1 5842503E
 P 4800 6000
-F 0 "#PWR1" H 4800 5750 50  0001 C CNN
+F 0 "#PWR01" H 4800 5750 50  0001 C CNN
 F 1 "GND" H 4800 5850 50  0000 C CNN
 F 2 "" H 4800 6000 50  0000 C CNN
 F 3 "" H 4800 6000 50  0000 C CNN
@@ -469,7 +414,7 @@ U 1 1 58E0EFF3
 P 2550 4500
 F 0 "D1" H 2550 4600 50  0000 C CNN
 F 1 "1N4148" H 2550 4400 50  0000 C CNN
-F 2 "" H 2550 4500 50  0000 C CNN
+F 2 "Diodes_SMD:MELF_Handsoldering" H 2550 4500 50  0001 C CNN
 F 3 "" H 2550 4500 50  0000 C CNN
 	1    2550 4500
 	1    0    0    -1  
@@ -480,7 +425,7 @@ U 1 1 58E0F05B
 P 4250 4500
 F 0 "D4" H 4250 4600 50  0000 C CNN
 F 1 "1N4148" H 4250 4400 50  0000 C CNN
-F 2 "" H 4250 4500 50  0000 C CNN
+F 2 "Diodes_SMD:MELF_Handsoldering" H 4250 4500 50  0001 C CNN
 F 3 "" H 4250 4500 50  0000 C CNN
 	1    4250 4500
 	-1   0    0    -1  
@@ -491,7 +436,7 @@ U 1 1 58F34C5A
 P 3400 3150
 F 0 "J2" H 3400 3500 50  0000 C TNN
 F 1 "COIL" V 3250 3150 50  0000 C TNN
-F 2 "" H 3400 2825 50  0001 C CNN
+F 2 "Connectors_Phoenix:PhoenixContact_MC-G_03x5.08mm_Angled" H 3400 2825 50  0001 C CNN
 F 3 "" H 3375 3250 50  0001 C CNN
 	1    3400 3150
 	0    1    1    0   
@@ -514,20 +459,40 @@ U 1 1 58F35B2E
 P 5200 3150
 F 0 "J1" H 5200 3400 50  0000 C TNN
 F 1 "9-24V" V 5050 3150 50  0000 C TNN
-F 2 "" H 5200 2925 50  0001 C CNN
+F 2 "Connectors_Phoenix:PhoenixContact_MC-G_02x5.08mm_Angled" H 5200 2925 50  0001 C CNN
 F 3 "" H 5175 3150 50  0001 C CNN
 	1    5200 3150
 	0    1    1    0   
 $EndComp
 $Comp
-L GNDA #PWR2
+L GNDA #PWR02
 U 1 1 58F35D3D
 P 5300 3350
-F 0 "#PWR2" H 5300 3100 50  0001 C CNN
+F 0 "#PWR02" H 5300 3100 50  0001 C CNN
 F 1 "GNDA" H 5300 3200 50  0000 C CNN
 F 2 "" H 5300 3350 50  0000 C CNN
 F 3 "" H 5300 3350 50  0000 C CNN
 	1    5300 3350
 	1    0    0    -1  
 $EndComp
+Text Label 2350 5050 0    60   ~ 0
+C1
+Text Label 4450 5050 0    60   ~ 0
+C2
+Text Label 2700 5300 0    60   ~ 0
+G1
+Text Label 4000 5300 0    60   ~ 0
+G2
+Text Label 2850 4750 0    60   ~ 0
+D1
+Text Label 3850 4750 0    60   ~ 0
+D2
+Text Label 4050 4100 0    60   ~ 0
+9V
+Text Label 3200 5300 0    60   ~ 0
+X1
+Text Label 3600 5300 0    60   ~ 0
+X2
+Text Label 4750 3700 0    60   ~ 0
+VCC
 $EndSCHEMATC

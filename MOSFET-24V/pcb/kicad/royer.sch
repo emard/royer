@@ -29,7 +29,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:fluxgate
 LIBS:lamp
 LIBS:diode
 LIBS:royer-cache
@@ -476,4 +475,24 @@ F 3 "" H 5300 3350 50  0000 C CNN
 	1    5300 3350
 	1    0    0    -1  
 $EndComp
+Text Label 2350 5050 0    60   ~ 0
+C1
+Text Label 4450 5050 0    60   ~ 0
+C2
+Text Label 2700 5300 0    60   ~ 0
+G1
+Text Label 4000 5300 0    60   ~ 0
+G2
+Text Label 2850 4750 0    60   ~ 0
+D1
+Text Label 3850 4750 0    60   ~ 0
+D2
+Text Label 4050 4100 0    60   ~ 0
+9V
+Text Label 3200 5300 0    60   ~ 0
+X1
+Text Label 3600 5300 0    60   ~ 0
+X2
+Text Label 4750 3700 0    60   ~ 0
+24V
 $EndSCHEMATC
