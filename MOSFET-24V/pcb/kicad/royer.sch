@@ -91,17 +91,6 @@ F 3 "" H 3250 4300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
-U 1 1 58419092
-P 3000 5300
-F 0 "R2" V 3080 5300 50  0000 C CNN
-F 1 "0" V 3000 5300 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 2930 5300 50  0001 C CNN
-F 3 "" H 3000 5300 50  0000 C CNN
-	1    3000 5300
-	0    1    1    0   
-$EndComp
-$Comp
 L C C4
 U 1 1 58419AB8
 P 4250 4750
@@ -144,17 +133,6 @@ F 2 "Resistors_SMD:R_1206_HandSoldering" V 3480 4300 50  0001 C CNN
 F 3 "" H 3550 4300 50  0000 C CNN
 	1    3550 4300
 	-1   0    0    -1  
-$EndComp
-$Comp
-L R R6
-U 1 1 58419AF3
-P 3800 5300
-F 0 "R6" V 3880 5300 50  0000 C CNN
-F 1 "0" V 3800 5300 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 3730 5300 50  0001 C CNN
-F 3 "" H 3800 5300 50  0000 C CNN
-	1    3800 5300
-	0    -1   1    0   
 $EndComp
 $Comp
 L C C5
@@ -204,9 +182,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 4100 3250 4150
 Wire Wire Line
-	2650 5300 2850 5300
-Wire Wire Line
-	3150 5300 3250 5300
+	2650 5300 3250 5300
 Wire Wire Line
 	3250 5300 3550 4500
 Wire Wire Line
@@ -253,9 +229,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 4100 3550 4150
 Wire Wire Line
-	4150 5300 3950 5300
-Wire Wire Line
-	3550 5300 3650 5300
+	3550 5300 4150 5300
 Wire Wire Line
 	3550 5300 3550 5350
 Wire Wire Line
@@ -317,21 +291,6 @@ F 3 "" H 4800 6000 50  0000 C CNN
 $EndComp
 Connection ~ 4800 5800
 $Comp
-L C C6
-U 1 1 58426E3E
-P 3400 3900
-F 0 "C6" V 3350 3700 50  0000 L CNN
-F 1 "2uF" V 3350 4000 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 3438 3750 50  0001 C CNN
-F 3 "" H 3400 3900 50  0000 C CNN
-	1    3400 3900
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3550 3900 4450 3900
-Wire Wire Line
-	2350 3900 3250 3900
-$Comp
 L ZENER D2
 U 1 1 58419259
 P 3250 5550
@@ -370,7 +329,7 @@ U 1 1 58481B63
 P 2450 5300
 F 0 "Q1" H 2400 5400 50  0000 R CNN
 F 1 "IRFB4410" V 2700 5500 50  0000 R CNN
-F 2 "TO_SOT_Packages_THT:TO-220_Neutral123_Vertical_LargePads" H 2650 5400 50  0001 C CNN
+F 2 "TO-220:TO-220_Neutral123_Horizontal_LargePads" H 2650 5400 50  0001 C CNN
 F 3 "" H 2450 5300 50  0000 C CNN
 	1    2450 5300
 	-1   0    0    -1  
@@ -403,7 +362,7 @@ U 1 1 58482A82
 P 4350 5300
 F 0 "Q4" H 4300 5400 50  0000 R CNN
 F 1 "IRFB4410" V 4600 5500 50  0000 R CNN
-F 2 "TO_SOT_Packages_THT:TO-220_Neutral123_Vertical_LargePads" H 4550 5400 50  0001 C CNN
+F 2 "TO-220:TO-220_Neutral123_Horizontal_LargePads" H 4550 5400 50  0001 C CNN
 F 3 "" H 4350 5300 50  0000 C CNN
 	1    4350 5300
 	1    0    0    -1  
@@ -445,12 +404,10 @@ Wire Wire Line
 	2350 3550 3200 3550
 Wire Wire Line
 	3200 3550 3200 3350
-Connection ~ 2350 3900
 Wire Wire Line
 	3600 3350 3600 3550
 Wire Wire Line
 	3600 3550 4450 3550
-Connection ~ 4450 3900
 Wire Wire Line
 	3400 3350 3400 3700
 $Comp
@@ -468,9 +425,9 @@ Text Label 2350 5050 0    60   ~ 0
 C1
 Text Label 4450 5050 0    60   ~ 0
 C2
-Text Label 2700 5300 0    60   ~ 0
+Text Label 2850 5300 0    60   ~ 0
 G1
-Text Label 4000 5300 0    60   ~ 0
+Text Label 3850 5300 0    60   ~ 0
 G2
 Text Label 2850 4750 0    60   ~ 0
 D1
@@ -478,21 +435,39 @@ Text Label 3850 4750 0    60   ~ 0
 D2
 Text Label 4050 4100 0    60   ~ 0
 9V
-Text Label 3200 5300 0    60   ~ 0
-X1
-Text Label 3600 5300 0    60   ~ 0
-X2
 Text Label 4750 3700 0    60   ~ 0
 24V
 $Comp
-L GND #PWR?
+L GND #PWR02
 U 1 1 58F35A7F
 P 5300 3350
-F 0 "#PWR?" H 5300 3100 50  0001 C CNN
+F 0 "#PWR02" H 5300 3100 50  0001 C CNN
 F 1 "GND" H 5300 3200 50  0000 C CNN
 F 2 "" H 5300 3350 50  0000 C CNN
 F 3 "" H 5300 3350 50  0000 C CNN
 	1    5300 3350
 	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 H2
+U 1 1 58F3D143
+P 4450 6000
+F 0 "H2" H 4450 6100 50  0000 C CNN
+F 1 "3.2mm" V 4550 6000 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad" H 4450 6000 50  0001 C CNN
+F 3 "" H 4450 6000 50  0000 C CNN
+	1    4450 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X01 H1
+U 1 1 58F3D67A
+P 2750 6000
+F 0 "H1" H 2750 6100 50  0000 C CNN
+F 1 "3.2mm" V 2850 6000 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad" H 2750 6000 50  0001 C CNN
+F 3 "" H 2750 6000 50  0000 C CNN
+	1    2750 6000
+	0    -1   1    0   
 $EndComp
 $EndSCHEMATC

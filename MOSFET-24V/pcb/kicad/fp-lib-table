@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name TO-220)(type KiCad)(uri "$(KIPRJMOD)/footprints/TO-220/TO-220.pretty")(options "")(descr ""))
+)
