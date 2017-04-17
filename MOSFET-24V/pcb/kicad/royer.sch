@@ -134,17 +134,6 @@ F 3 "" H 3550 4300 50  0000 C CNN
 	1    3550 4300
 	-1   0    0    -1  
 $EndComp
-$Comp
-L C C5
-U 1 1 5841D866
-P 4800 4900
-F 0 "C5" H 4825 5000 50  0000 L CNN
-F 1 "1uF" H 4850 4800 50  0000 L CNN
-F 2 "Capacitors_SMD:c_elec_4x5.8" H 4838 4750 50  0001 C CNN
-F 3 "" H 4800 4900 50  0000 C CNN
-	1    4800 4900
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	2350 3550 2350 5100
 Wire Wire Line
@@ -534,6 +523,34 @@ F 1 "GND" H 3900 6250 50  0000 C CNN
 F 2 "" H 3900 6400 50  0000 C CNN
 F 3 "" H 3900 6400 50  0000 C CNN
 	1    3900 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C6
+U 1 1 58F4917F
+P 3400 3850
+F 0 "C6" H 3425 3950 50  0000 L CNN
+F 1 "1uF" H 3425 3750 50  0000 L CNN
+F 2 "Choke_Axial_ThroughHole:Choke_Horizontal_RM10mm" H 3438 3700 50  0001 C CNN
+F 3 "" H 3400 3850 50  0000 C CNN
+	1    3400 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3550 3850 4450 3850
+Connection ~ 4450 3850
+Wire Wire Line
+	3250 3850 2350 3850
+Connection ~ 2350 3850
+$Comp
+L CP C5
+U 1 1 58F49BFC
+P 4800 4900
+F 0 "C5" H 4825 5000 50  0000 L CNN
+F 1 "4.7uF" H 4825 4800 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:Tantalum_Case-C_EIA-6032-28_Hand" H 4838 4750 50  0001 C CNN
+F 3 "" H 4800 4900 50  0000 C CNN
+	1    4800 4900
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
