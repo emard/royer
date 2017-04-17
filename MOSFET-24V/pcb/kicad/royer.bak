@@ -419,7 +419,7 @@ F 1 "9-24V" V 5050 3150 50  0000 C TNN
 F 2 "Connectors_Phoenix:PhoenixContact_MC-G_02x5.08mm_Angled" H 5200 2925 50  0001 C CNN
 F 3 "" H 5175 3150 50  0001 C CNN
 	1    5200 3150
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 Text Label 2350 5050 0    60   ~ 0
 C1
