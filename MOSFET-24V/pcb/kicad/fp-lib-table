@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name TO-220)(type KiCad)(uri "$(KIPRJMOD)/footprints/TO-220/TO-220.pretty")(options "")(descr ""))
   (lib (name DIL-4)(type KiCad)(uri "$(KIPRJMOD)/footprints/DIL-4/DIL-4.pretty")(options "")(descr ""))
+  (lib (name TO-220-small-heatsink)(type KiCad)(uri "$(KIPRJMOD)/footprints/TO-220/TO-220-small-heatsink.pretty")(options "")(descr ""))
 )
