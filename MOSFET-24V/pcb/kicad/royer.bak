@@ -135,7 +135,11 @@ F 3 "" H 3550 4300 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2350 3550 2350 5100
+	2350 3850 2350 4500
+Wire Wire Line
+	2350 4500 2350 4750
+Wire Wire Line
+	2350 4750 2350 5100
 Wire Wire Line
 	2350 4500 2400 4500
 Connection ~ 2350 4500
@@ -143,17 +147,25 @@ Wire Wire Line
 	2350 4750 2400 4750
 Connection ~ 2350 4750
 Wire Wire Line
-	2700 4500 2800 4500
+	2700 4500 2750 4500
 Wire Wire Line
-	2700 4750 3000 4750
+	2750 4500 2800 4500
 Wire Wire Line
-	2750 4500 2750 4800
+	2700 4750 2750 4750
+Wire Wire Line
+	2750 4750 3000 4750
+Wire Wire Line
+	2750 4500 2750 4750
+Wire Wire Line
+	2750 4750 2750 4800
 Connection ~ 2750 4500
 Connection ~ 2750 4750
 Wire Wire Line
 	3000 4750 3000 4800
 Wire Wire Line
-	2750 5100 2750 5800
+	2750 5100 2750 5150
+Wire Wire Line
+	2750 5150 2750 5800
 Wire Wire Line
 	2750 5150 3000 5150
 Wire Wire Line
@@ -161,13 +173,29 @@ Wire Wire Line
 Wire Wire Line
 	2350 5500 2350 5800
 Wire Wire Line
-	2350 5800 4800 5800
+	2350 5800 2750 5800
+Wire Wire Line
+	2750 5800 3250 5800
+Wire Wire Line
+	3250 5800 3550 5800
+Wire Wire Line
+	3550 5800 4050 5800
+Wire Wire Line
+	4050 5800 4450 5800
+Wire Wire Line
+	4450 5800 4800 5800
 Connection ~ 2750 5800
 Connection ~ 2750 5150
 Wire Wire Line
 	3000 4200 3000 4100
 Wire Wire Line
-	3000 4100 4800 4100
+	3000 4100 3250 4100
+Wire Wire Line
+	3250 4100 3550 4100
+Wire Wire Line
+	3550 4100 3800 4100
+Wire Wire Line
+	3800 4100 4800 4100
 Wire Wire Line
 	3250 4100 3250 4150
 Wire Wire Line
@@ -186,7 +214,11 @@ Wire Wire Line
 Wire Wire Line
 	3250 4500 3550 5300
 Wire Wire Line
-	4450 3550 4450 5100
+	4450 3850 4450 4500
+Wire Wire Line
+	4450 4500 4450 4750
+Wire Wire Line
+	4450 4750 4450 5100
 Wire Wire Line
 	4450 4500 4400 4500
 Connection ~ 4450 4500
@@ -194,17 +226,25 @@ Wire Wire Line
 	4450 4750 4400 4750
 Connection ~ 4450 4750
 Wire Wire Line
-	4000 4500 4100 4500
+	4000 4500 4050 4500
 Wire Wire Line
-	3800 4750 4100 4750
+	4050 4500 4100 4500
 Wire Wire Line
-	4050 4500 4050 4800
+	3800 4750 4050 4750
+Wire Wire Line
+	4050 4750 4100 4750
+Wire Wire Line
+	4050 4500 4050 4750
+Wire Wire Line
+	4050 4750 4050 4800
 Connection ~ 4050 4500
 Connection ~ 4050 4750
 Wire Wire Line
 	3800 4750 3800 4800
 Wire Wire Line
-	4050 5100 4050 5800
+	4050 5100 4050 5150
+Wire Wire Line
+	4050 5150 4050 5800
 Wire Wire Line
 	4050 5150 3800 5150
 Wire Wire Line
@@ -239,13 +279,21 @@ Wire Wire Line
 Wire Wire Line
 	5100 5150 4800 5150
 Wire Wire Line
-	4800 5050 4800 6000
+	4800 5050 4800 5150
 Wire Wire Line
-	5100 4500 5100 4700
+	4800 5150 4800 5800
+Wire Wire Line
+	4800 5800 4800 6000
+Wire Wire Line
+	5100 4500 5100 4650
+Wire Wire Line
+	5100 4650 5100 4700
 Wire Wire Line
 	5100 4650 4800 4650
 Wire Wire Line
-	4800 4100 4800 4750
+	4800 4100 4800 4650
+Wire Wire Line
+	4800 4650 4800 4750
 Connection ~ 4800 5150
 Connection ~ 4800 4650
 $Comp
@@ -261,10 +309,7 @@ F 3 "" H 5100 4350 50  0000 C CNN
 $EndComp
 Connection ~ 3800 4100
 Connection ~ 4450 5800
-Wire Wire Line
-	3400 3700 5100 3700
 Connection ~ 5100 4650
-Connection ~ 5100 3700
 $Comp
 L GND #PWR01
 U 1 1 5842503E
@@ -316,7 +361,7 @@ U 1 1 58481B63
 P 2450 5300
 F 0 "Q1" H 2400 5400 50  0000 R CNN
 F 1 "IRFB4410" V 2700 5500 50  0000 R CNN
-F 2 "TO-220:TO-220_Neutral123_Horizontal_LargePads" H 2650 5400 50  0001 C CNN
+F 2 "TO-220-small-heatsink:TO-220-small-heatsink" H 2650 5400 50  0001 C CNN
 F 3 "" H 2450 5300 50  0000 C CNN
 	1    2450 5300
 	-1   0    0    -1  
@@ -349,7 +394,7 @@ U 1 1 58482A82
 P 4350 5300
 F 0 "Q4" H 4300 5400 50  0000 R CNN
 F 1 "IRFB4410" V 4600 5500 50  0000 R CNN
-F 2 "TO-220:TO-220_Neutral123_Horizontal_LargePads" H 4550 5400 50  0001 C CNN
+F 2 "TO-220-small-heatsink:TO-220-small-heatsink" H 4550 5400 50  0001 C CNN
 F 3 "" H 4350 5300 50  0000 C CNN
 	1    4350 5300
 	1    0    0    -1  
@@ -376,38 +421,6 @@ F 3 "" H 4250 4500 50  0000 C CNN
 	1    4250 4500
 	-1   0    0    -1  
 $EndComp
-$Comp
-L Screw_Terminal_1x03 J2
-U 1 1 58F34C5A
-P 3400 3150
-F 0 "J2" H 3400 3500 50  0000 C TNN
-F 1 "COIL" V 3250 3150 50  0000 C TNN
-F 2 "Connectors_Phoenix:PhoenixContact_MC-G_03x5.08mm_Angled" H 3400 2825 50  0001 C CNN
-F 3 "" H 3375 3250 50  0001 C CNN
-	1    3400 3150
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	2350 3550 3200 3550
-Wire Wire Line
-	3200 3550 3200 3350
-Wire Wire Line
-	3600 3350 3600 3550
-Wire Wire Line
-	3600 3550 4450 3550
-Wire Wire Line
-	3400 3350 3400 3700
-$Comp
-L Screw_Terminal_1x02 J1
-U 1 1 58F35B2E
-P 5200 3150
-F 0 "J1" H 5200 3400 50  0000 C TNN
-F 1 "9-24V" V 5050 3150 50  0000 C TNN
-F 2 "Connectors_Phoenix:PhoenixContact_MC-G_02x5.08mm_Angled" H 5200 2925 50  0001 C CNN
-F 3 "" H 5175 3150 50  0001 C CNN
-	1    5200 3150
-	0    -1   1    0   
-$EndComp
 Text Label 2350 5050 0    60   ~ 0
 C1
 Text Label 4450 5050 0    60   ~ 0
@@ -422,18 +435,18 @@ Text Label 3850 4750 0    60   ~ 0
 D2
 Text Label 4050 4100 0    60   ~ 0
 9V
-Text Label 4750 3700 0    60   ~ 0
+Text Label 5100 3800 0    60   ~ 0
 24V
 $Comp
 L GND #PWR02
 U 1 1 58F35A7F
-P 5300 3350
-F 0 "#PWR02" H 5300 3100 50  0001 C CNN
-F 1 "GND" H 5300 3200 50  0000 C CNN
-F 2 "" H 5300 3350 50  0000 C CNN
-F 3 "" H 5300 3350 50  0000 C CNN
-	1    5300 3350
-	1    0    0    -1  
+P 6700 4500
+F 0 "#PWR02" H 6700 4250 50  0001 C CNN
+F 1 "GND" H 6700 4350 50  0000 C CNN
+F 2 "" H 6700 4500 50  0000 C CNN
+F 3 "" H 6700 4500 50  0000 C CNN
+	1    6700 4500
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_01X01 H2
@@ -536,10 +549,8 @@ F 3 "" H 3400 3850 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	3550 3850 4450 3850
-Connection ~ 4450 3850
 Wire Wire Line
 	3250 3850 2350 3850
-Connection ~ 2350 3850
 $Comp
 L C C5
 U 1 1 58F49D26
@@ -563,5 +574,28 @@ F 3 "" H 5100 4050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5100 3350 5100 3900
+	5100 3700 5100 3900
+$Comp
+L Screw_Terminal_1x04 J?
+U 1 1 58FB71E3
+P 6500 4400
+F 0 "J?" H 6500 4850 50  0000 C TNN
+F 1 "Screw_Terminal_1x04" V 6350 4400 50  0000 C TNN
+F 2 "" H 6500 3975 50  0001 C CNN
+F 3 "" H 6475 4600 50  0001 C CNN
+	1    6500 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 4300 6950 4300
+Text Label 6750 4300 0    60   ~ 0
+24V
+Wire Wire Line
+	6700 4100 6950 4100
+Wire Wire Line
+	6700 4700 6950 4700
+Text Label 6750 4100 0    60   ~ 0
+C1
+Text Label 6750 4700 0    60   ~ 0
+C2
 $EndSCHEMATC
