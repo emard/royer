@@ -804,7 +804,7 @@
   )
 
   (module Mounting_Holes:MountingHole_3.5mm_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 58F4A7A8)
-    (at 162.56 82.55)
+    (at 162.56 83.82)
     (descr "Mounting Hole 3.5mm")
     (tags "mounting hole 3.5mm")
     (path /58F46EFD)
