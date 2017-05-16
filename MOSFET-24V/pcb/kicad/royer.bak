@@ -51,7 +51,7 @@ L C C1
 U 1 1 58417946
 P 2550 4750
 F 0 "C1" H 2575 4850 50  0000 L CNN
-F 1 "22nF" H 2575 4650 50  0000 L CNN
+F 1 "10nF" H 2575 4650 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 2588 4600 50  0001 C CNN
 F 3 "" H 2550 4750 50  0000 C CNN
 	1    2550 4750
@@ -95,7 +95,7 @@ L C C4
 U 1 1 58419AB8
 P 4250 4750
 F 0 "C4" H 4275 4850 50  0000 L CNN
-F 1 "22nF" H 4275 4650 50  0000 L CNN
+F 1 "10nF" H 4275 4650 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 4288 4600 50  0001 C CNN
 F 3 "" H 4250 4750 50  0000 C CNN
 	1    4250 4750
@@ -550,6 +550,6 @@ Text Label 6750 4100 0    60   ~ 0
 C1
 Text Label 6750 4700 0    60   ~ 0
 C2
-Text Notes 2650 6850 0    60   ~ 0
-Try C1=C4=22nF C2=C3=10nF\nfor faster switching, less heating
+Text Notes 2650 6950 0    60   ~ 0
+C1=C2=C3=C4=10nF works.\nTry C1=C4=22nF C2=C3=10nF\nfor faster switching, less heating
 $EndSCHEMATC
